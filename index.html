@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hàm kiểm tra số nguyên dương</title>
+</head>
+<body>
+<p>Hàm kiểm tra số nguyên dương</p>
+<button onclick="inputNumeric()">Nhập vào số</button>
+<script type="text/javascript">
+	function inputNumeric() {
+		let enterNumber = Number(prompt('Enter a number'));
+		if (enterNumber < 0) {
+			alert('fasle');
+		}else{
+			alert('true');
+		}
+	}
+</script>
+</body>
+</html>
